@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String REPRESENTATIONS_EMPTY  = "<representations><representation><nom>Vide!</nom></representation></representations>";
 
     // 10.0.2.2 : pour atteindre une 2ressource sur la machine hote de l'AVD
-    //private static final String URL_XMLRESSOURCE = "172.15.6.240/llebreton1/FestivalPHP2018_5-master/rest/getAllRepresentations.php";
+    //private static final String URL_XMLRESSOURCE  = "172.15.6.240/llebreton1/FestivalPHP2018_5-master/rest/getAllRepresentations.php";
 
     private static final String URL_XMLRESSOURCE = "http://192.168.56.1/FestivalPHP2018_5-master/rest/getAllRepresentations.php";
     private ListView listViewRepresentations;
