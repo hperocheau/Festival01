@@ -8,7 +8,6 @@ public class Lieu {
     String capAccueil;
 
     //constructeur
-
     public Lieu(String id, String nom, String adresse, String capAccueil) {
         this.id = id;
         this.nom = nom;

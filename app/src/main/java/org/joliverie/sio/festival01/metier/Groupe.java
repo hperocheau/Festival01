@@ -13,9 +13,7 @@ public class Groupe {
     private String nomPays;
     private char hebergement;
 
-    public Groupe() {
-    }
-
+    public Groupe() { }
     public Groupe(String id, String nom, String identite, String adresse, int nbPers, String nomPays, char hebergement) {
         this.id = id;
         this.nom = nom;
