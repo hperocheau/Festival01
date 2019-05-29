@@ -26,7 +26,7 @@ public class vueUneRepresentation extends AppCompatActivity {
         TextView textViewLieu = (TextView) findViewById(R.id.textViewLieu);
         textViewLieu.setText(lieu);
 
-        String heureDebut = getIntent().getExtras().getString("heureDebut");
+        String heureDebut = getIntent().getExtras().getString("heureDeb");
         TextView textViewHeureDebut = (TextView) findViewById(R.id.textViewHeureDebut);
         textViewHeureDebut.setText(heureDebut);
 
